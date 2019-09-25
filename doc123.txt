@@ -1,0 +1,365 @@
+MODELING DECISIONS FOR HOSPITAL BED MANAGEMENT
+A Review
+Joaquim Matos1,2 and Pedro Pereira Rodrigues1,3
+1Faculty of Medicine of the University of Porto, Al. Prof. Hernâni Monteiro, 4200-319 Porto, Portugal
+2Faculty of Sciences of the University of Porto, Rua do Campo Alegre, s/n, 4169-007 Porto, Portugal
+3LIAAD - INESC Porto, L.A. & CINTESIS - Center for Research in Health Technologies and Information Systems
+Universidade do Porto, Porto, Portugal
+{mim09017, pprodrigues}@med.up.pt
+Keywords: Hospital bed management, Hospital capacity planning, Decision support systems, Decision support models.
+Abstract: With today’s hospital demands and financial constraints, hospital inpatient bed management is becoming
+increasingly complex. The use of decision support systems could enable hospital staff and health decision
+makers to perform more focused management of the hospital inpatient beds, thus potentially reducing costs
+and inpatient length of stay. A literature review was carry out on both PubMed and ISI Web of Knowledge
+in order to identify studies evaluating the use of decision support systems when applied to hospital inpatient
+bed management. Two different approaches were identified: one approach based on the use of mathematical
+models to support the planning and allocation of hospital inpatient beds and another approach consisting in
+the utilization of information technologies to support timely inpatient placement. It was perceived that
+mathematical models could be safely used to model annual patient arrival rates and bed occupancy, thus
+forecasting hospital/department bed demand and underlying cost structures/revenues. It was also perceived
+that the use of bed management information systems provides hospital staff (administrative clerk, clinicians
+and housekeepers) with the necessary information to timely assess performance measures based on the
+hospital/department activity thus increasing resource effectiveness, optimizing established clinical
+pathways, reducing inpatient length of stay and associated costs.
+1 RATIONALE
+With today’s hospital demands and increasing
+financial constraints, efficient hospital inpatient bed
+planning and allocation is becoming increasingly
+difficult. In recent years, hospitals have engaged in
+various cost-cutting efforts that include department
+downsizing, the consolidation of small services and
+the decrease of the average inpatient length of stay
+(ALoS). The number of hospital inpatient beds is
+usually determined by the hospital or by associated
+health authorities using methods based on ratios
+and/or target bed occupancy rates (Green and
+Nguyen, 2001; National Audit Office, 2000; Nguyen
+et al., 2005; Kokangul, 2008; Mackay and Lee,
+2005; Millard et al., 2000). The optimal number of
+hospital/department inpatient beds can be defined as
+the number for which the following three criteria are
+met (Nguyen et al., 2005):
+? The number of unoccupied beds is not excessive,
+to avoid resource misuse thus levering the efficiency
+and maximizing revenues (productivity);
+? The number of patients transferred to other
+departments or other hospitals because of lack of
+available bed is not excessive (security). Transfers to
+other hospitals result in a lost of revenues while
+transfers to other departments may cause the
+placement in less appropriate units, compromising
+the quality of care and possibly resulting in a
+increase of costs (e.g. need for additional staff);
+? One or more beds are available for unscheduled
+admissions (accessibility).
+The introduction/development of decision
+support information systems, either based on
+mathematical models or based on information
+systems, could allow bed managers (and other staff
+that hold responsibilities in the inpatient bed
+management process) to perform a more focused
+management of the hospital inpatient beds, either by
+providing new planning forecast tools and/or tools
+capable to timely-inform about current bed
+occupancy/utilization, short-term levels of planned
+504
+elective admissions, likely emergency inpatient
+admissions and likely inpatient discharges.
+2 METHODS
+A literature search was performed in December 2009
+with the goal of identifying studies evaluating the
+use of decision support systems when applied to
+hospital inpatient bed management. The search was
+conducted both on PubMed and ISI Web of
+Knowledge resulting in a base data collection of 65
+studies. Thirteen studies were excluded by lack of
+available abstract or full text and 38 studies were
+excluded after abstract and/or full text review (e.g.
+studies that didn’t address explicitly hospital bed
+capacity and/or hospital bed allocation management
+subjects). The final size of the overall data collection
+was of 14 studies. Ten studies (~71,4%) addressed
+the use of mathematical models to forecast and/or
+plan hospital bed capacity (Green and Nguyen,
+2001; Nguyen et al., 2005, 2007; Kokangul, 2008;
+Mackay and Lee, 2005; Millard et al., 2000;
+Cochran and Roche, 2008; Gorunescu, McClean and
+Millard, 2002; Belien and Demeulemeester, 2007;
+Ridge et al., 1998). Four studies (~28,6%) addressed
+the use of information technologies to support
+inpatient bed management, currently under use
+(Blair, 2005; Szabo, 2003; Reuille, 2004) or under
+evaluation (Kannry et al., 2007). One literature
+source with publication date in the current decade
+(National Audit Office, 2000) was handpicked and
+added to the overall data collection in order to
+support theoretical and practical concepts
+surrounding the bed management subject.
+3 FINDINGS
+From the analysis of the selected data collection
+from both PubMed and ISI Web of Knowledge, it
+was perceived that the subject under revision (the
+use of decision support systems for hospital inpatient
+bed management) can be undertaken by two
+distinctive approaches. One approach is based on the
+use of mathematical models to support the planning
+and allocation of hospital inpatient beds. Another
+approach consists on the utilization of information
+technologies to support the timely-decision/timelyaction
+of the hospital staff (administrative clerk,
+clinicians and housekeepers) in order to facilitate
+inpatient placement thus optimizing the bed
+management process. The main conclusions and
+recommendations extracted from the reviewed
+studies are sketched in table 1.
+The studies that addressed the planning and
+allocation of inpatient beds by means of
+mathematical models covered such diverse
+techniques as: queuing models, stochastic models,
+flow models and other general proposed models.
+Different distributions of patient
+arrival/department service rates were analyzed for
+different department/unit profiles: geriatric
+department (Gorunescu, McClean and Millard,
+2002), intensive care unit (Ridge et al., 1998;
+Cochran and Roche, 2008), intermediate care,
+obstetrics/gynaecology and surgical departments
+(Cochran and Roche, 2008) and paediatric intensive
+care unit (Kokangul, 2008).
+Mathematical distributions were originated from
+data collections as diverse as: department historical
+patient arrival rate/LoS, midnight census by
+department, midnight bed holds by department and
+patient billed nights by level of care. All of the
+analyzed studies point out advantages in the use of
+mathematical models to forecast department
+demands in terms of allocating the right number of
+beds. It was concluded that the mathematical models
+also provide better information concerning cost
+structures and revenue characteristics and how these
+affect capacity and resource allocation decisions.
+Given accurate data about the actual costs of
+occupied and empty beds, modelling could be used
+to balance the cost of providing excess standby beds
+(accessibility), with the costs associated with
+rejecting patients. Thus, the modelling approach
+facilitates the provision of cost efficient and cost
+effective services.
+Four studies addressed the use of information
+technologies to support and facilitate inpatient
+placement. Reuille (2004) proposed a centralized
+bed management system (Bed Control Report) based
+on five Excel spreadsheets, dispersed by four
+departments, were information was inputted by the
+target department staff. Szabo (2003) describes the
+use of the Bed Tracking System, developed by Tele-
+Tracking Technologies, to support the bed
+placement workflow and centralize bed status
+information (bed released, bed in maintenance and
+bed available), that is entered into the system by the
+hospital staff (administrative clerk, clinicians and
+housekeepers) using specific coded calls. A very
+similar approach is described by Blair (2005) were
+the BedCentral system, developed by MediLogistics,
+is also used to centralize bed status information
+entered by the hospital staff. Unlike the Bed
+Tracking System, the information is inputted on both
+MODELING DECISIONS FOR HOSPITAL BED MANAGEMENT - A Review
+505
+patient admission and patient discharge. Mobile staff
+members use PDAs to generate, transmit and receive
+information about bed status while other members
+use department workplaces and/or an electronic
+dashboard. It was concluded that the use of Bed
+Tracking System resulted in a door-to-bed
+improvement by nearly 30 percent and that the use
+of BedCentral resulted in a reduction of the time
+needed to perform bed maintenance from nearly two
+hours to about 45 minutes reducing FTEs by 25
+percent. The last analyzed study evaluated the use of
+RFID technology to accelerate identification of
+empty beds by assigning to each discharged patient a
+unique RFID tag number that was read at the patient
+departure time (the effective physical discharge). It
+was concluded that the proposed system enabled the
+identification of empty beds within an average of 25
+minutes earlier when compared with the pre-existing
+process (manual information recording in the ADT
+system).
+4 CONCLUSIONS
+The analyzed mathematical models were in general
+complex and didn’t address numerous internal and
+external factors that may affect the provision of
+hospital/department inpatient services, such as
+staffing levels, multi-profile beds, requirements for
+isolated beds and clinical pathways that are crossdepartmental
+(e.g. multi-department beds). As such,
+the models should be augmented by other
+information to ensure a more comprehensive
+understanding of the dynamics that arise from an
+analyzed hospital/department. For general planning
+and cost structures/revenue purposes, an annual
+model of patient arrival rates and bed occupancy
+(department service) may be sufficient. Models of
+shorter duration, however, may be necessary to
+reflect the changes in bed occupancy that occur
+throughout the year.
+Table 1: Main conclusions and recommendations extracted from the analyzed studies.
+Information technologies Mathematical models
+BedCentral has helped St. Luke's
+Episcopal Hospital to maximize its
+existing resources, e.g. ICU capacity
+tuning, telemetry/high-dollar beds swift
+filling and minimization of the time
+required to clean rooms and transport
+patients (Blair 2005)
+The use of target occupancy levels, such as the
+average length of stay (LoS), as the primary
+determinant of bed capacity is inadequate due to
+the unpredictable nature and distribution of
+hospital admission rates and patient LoS over time
+(Green & Nguyen 2001; Nguyen et al. 2005, 2007;
+Kokangul 2008; Mackay & Lee 2005; Millard et
+al. 2000; Ridge et al. 1998)
+More sophisticated methodologies
+should be considered to support
+decisions that involve bed capacity,
+e.g. methodologies that capture
+population structure, organization
+and resource use (Green & Nguyen
+2001; Mackay & Lee 2005)
+Bed Tracking System has improved
+door-to-bed time and reduced the “holdtime”
+by nearly 30%. It also lengthened
+the time clinicians can spend with
+patients
+instead of trying to locate a empty bed
+(Szabo 2003)
+Stochastic and flow models could be used to
+determine the optimum size of bed requirement,
+the size of additional required resources (e.g.
+workforce or facility planning) or to capture the
+variation in bed occupancy (Kokangul 2008;
+Mackay & Lee 2005)
+Models should consider elective
+patient scheduling, different levels of
+care (e.g. ICU and HDU beds) and
+semi-automated historical data
+(Ridge et al. 1998)
+The proposed RFID-based system
+identified empty beds within an average
+of 25 minutes earlier when compared
+with the pre-existing process - manual
+information recording in the ADT system
+(Kannry et al. 2007)
+Posterior financial/billing data, rather than the
+census data commonly relied upon, yields the
+true hospital bed demand as it estimates true
+demand for service rather than merely the
+service available to be offered
+(Cochran & Roche 2008)
+Seasonal bed demand patterns
+should be considered when
+evaluating bed management models
+(Kokangul 2008, Cochran & Roche
+2008)
+There is a clear need to address both
+the issue of capacity planning at each different
+level of care within individual hospitals and also
+relative levels of care across different hospitals
+in a region (Ridge et al. 1998)
+Additional parameters should be
+included such as population rate,
+staff/equipment requirements and
+budget constraints, in order to
+universalize stochastic models
+(Kokangul 2008)
+Conclusions Recommendations
+HEALTHINF 2011 - International Conference on Health Informatics
+506
+Bed management systems based on information
+technologies, supply hospital staff with the
+information necessary to timely assess performance
+measures based on the department activity, thus
+increasing resource effectiveness, optimizing
+established clinical pathways, reducing inpatient
+length of stay and associated costs. However
+performance measures could be biased because of
+the implied cross reliance on hospital staff to timely
+input patient/bed status information. The analyzed
+systems rely too much on timely inputted
+information in order to proper track
+hospital/department bed status – current bed status
+may not be the real bed status. In this sense, it is
+recommended that these systems be integrated with
+the hospital ADT (Admission/Discharge/Transfer)
+information system in order to reduce human
+interaction to the minimum. Yet, even after
+performing this kind of integration, another problem
+would still exist in the patient discharge process –
+the time de-synchronization between the patient
+department discharge and the manual recording of
+that information in the ADT system. The suggested
+RFID approach could provide a simple solution for
+this problem.
+REFERENCES
+Kokangul, A. (2008). A combination of deterministic and
+stochastic approaches to optimize bed capacity in a
+hospital unit. Computer Methods and Programs in
+Biomedicine, 90(1), 56-65.
+Belien, J. and Demeulemeester, E. (2007). Building cyclic
+master surgery schedules with levelled resulting bed
+occupancy. European Journal of Operational
+Research, 176(2), 1185-1204.
+Blair, R. (2005). Capacity management: the bedrock of
+efficiency. Health Management Technology, 26(9), 26,
+30-31.
+Cochran, J. K. and Roche, K. (2008). A queuing-based
+decision support methodology to estimate hospital
+inpatient bed demand. Journal of the Operational
+Research Society, 59(11), 1471-1482.
+Gorunescu, F., McClean, S. I. and Millard, P. H. (2002).
+Using a Queuing Model to Help Plan Bed Allocation
+in a Department of Geriatric Medicine. Health Care
+Management Science, 5(4), 307-312.
+Green, L. V. and Nguyen, V. (2001). Strategies for cutting
+hospital beds: The impact on patient service. Health
+Services Research, 36(2), 421-442.
+Nguyen, J. M., Six, P., Antonioli, D., Glemain, P., Potel,
+G., Lombrail, P. and Le Beux, P. (2005). A simple
+method to optimize hospital beds capacity.
+International Journal of Medical Informatics, 74(1),
+39-49.
+Kannry, J., Emro, S., Blount, M. and Ebling, M. (2007).
+Small-scale Testing of RFID in a Hospital Setting:
+RFID as Bed Trigger. AMIA Annual Symposium
+Proceedings, 384-388.
+Mackay, M. and Lee, M. (2005). Choice of Models for the
+Analysis and Forecasting of Hospital Beds. Health
+Care Management Science, 8(3), 221-230.
+National Audit Office (2000). Inpatient Admissions and
+Bed management in NHS acute hospitals.
+Nguyen, J. M., Six, P., Chaussalet, T., Antonioli, D.,
+Lombrail, P. and Le Beux, P. (2007). An objective
+method for bed capacity planning in a hospital
+department - A comparison with target ratio methods.
+Methods of Information in Medicine, 46(4), 399-405.
+Millard, P. H., Mackay, M., Vasilakis, C., Christodoulou,
+G. (2000). Measuring and modelling surgical bed
+usage. Annals of the Royal College of Surgeons of
+England, 82(2), 75-82.
+Szabo, P. (2003). Bed-der than ever. Pittsburgh hospital
+uses automated bed tracking and control to speed
+efficiency in its ED. Health Management Technology,
+24(3), 58-59.
+Reuille, R. (2004). Bed Control Report: A Computerbased
+System to Track Patient Admissions Delayed or
+Rescheduled Due to a Bed Shortage. The Journal of
+Nursing Administration, 34(12), 539-542.
+Ridge, J. C., Jones, S. K., Nielsen, M. S. and Shahani, A.
+K. (1998). Capacity planning for intensive care units.
+European Journal of Operational Research, 105(2),
+346-355.
+MODELING DECISIONS FOR HOSPITAL BED MANAGEMENT - A Review
+507
+View publication stats

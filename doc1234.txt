@@ -1,0 +1,163 @@
+What Is The Internet of Things (IoT)
+
+The Internet of Things may be a hot topic in the industry but it’s not a new concept. In the early 2000’s,
+Kevin Ashton was laying the groundwork for what would become the Internet of Things (IoT) at MIT’s
+AutoID lab. Ashton was one of the pioneers who conceived this notion as he searched for ways that
+Proctor & Gamble could improve its business by linking RFID information to the Internet. The concept
+was simple but powerful. If all objects in daily life were equipped with identifiers and wireless connectivity,
+these objects could be communicate with each other and be managed by computers. In a 1999 article
+for the RFID Journal Ashton wrote:
+“If we had computers that knew everything there was to know about things—using data they gathered
+without any help from us -- we would be able to track and count everything, and greatly reduce waste,
+loss and cost. We would know when things needed replacing, repairing or recalling, and whether they
+were fresh or past their best. We need to empower computers with their own means of gathering
+information, so they can see, hear and smell the world for themselves, in all its random glory. RFID and
+sensor technology enable computers to observe, identify and understand the world—without the
+limitations of human-entered data.”
+1 At the time, this vision required major technology improvements. After all, how would we connect
+everything on the planet? What type of wireless communications could be built into devices? What
+changes would need to be made to the existing Internet infrastructure to support billions of new devices
+communicating? What would power these devices? What must be developed to make the solutions cost
+effective? There were more questions than answers to the IoT concepts in 1999.
+Today, many of these obstacles have been solved. The size and cost of wireless radios has dropped
+tremendously. IPv6 allows us to assign a communications address to billions of devices. Electronics
+companies are building Wi-Fi and cellular wireless connectivity into a wide range of devices. ABI
+Research estimates over five billion wireless chips will ship in 2013.2 Mobile data coverage has improved
+significantly with many networks offering broadband speeds. While not perfect, battery technology has
+improved and solar recharging has been built into numerous devices. There will be billions of objects
+connecting to the network with the next several years. For example,Cisco’s Internet of Things Group
+(IOTG) predicts there will be over 50 billion connected devices by 2020.3
+“An Introduction to the Internet of Things (IoT)” Copyright Lopez Research LLC 2
+
+1 http://kevinjashton.com/2009/06/22/the-internet-of-things/
+2 https://www.abiresearch.com/press/over-5-billion-wireless-connectivity-chips-will-sh
+3 http://www.cisco.com/web/about/ac79/docs/innov/IoT_IBSG_0411FINAL.pdf
+IoT describes a system where items in the physical world, and sensors within or attached to these items,
+are connected to the Internet via wireless and wired Internet connections. These sensors can use various
+types of local area connections such as RFID, NFC, Wi-Fi, Bluetooth, and Zigbee. Sensors can also have
+wide area connectivity such as GSM, GPRS, 3G, and LTE. The Internet of Things will:
+• Connect both inanimate and living things. Early trials and deployments of Internet of Things
+networks began with connecting industrial equipment. Today, the vision of IoT has expanded to
+connect everything from industrial equipment to everyday objects. The types of items range from gas
+turbines to automobiles to utility meters. It can also include living organisms such as plants, farm
+animals and people. For example, the Cow Tracking Project in Essex uses data collected from radio
+positioning tags to monitor cows for illness and track behavior in the herd. Wearable computing and
+digital health devices, such as Nike+ Fuel band and Fitbit, are examples of how people are connecting
+in the Internet of Things landscape. Cisco has expanded the definition of IoT to the Internet of
+Everything (IoE), which includes people, places, objects and things. Basically anything you can attach a
+sensor and connectivity to can participate in the new connected ecosystems.
+• Use sensors for data collection. The physical objects that are being connected will possess one or
+more sensors. Each sensor will monitor a specific condition such as location, vibration, motion and
+temperature. In IoT, these sensors will connect to each other and to systems that can understand or
+present information from the sensor’s data feeds. These sensors will provide new information to a
+company’s systems and to people.
+• Change what types of item communicate over an IP Network. In the past, people communicated
+with people and with machines. Imagine if all of your equipment had the ability to communicate. What
+would it tell you? IoT-enabled objects will share information about their condition and the surrounding
+environment with people, software systems and other machines. This information can be shared in realtime
+or collected and shared at defined intervals. Going forward, everything will have a digital identity
+and connectivity, which means you can identify, track and communicate with objects.
+IoT data differs from traditional computing. The data can be small in size and frequent in transmission.
+The number of devices, or nodes, that are connecting to the network are also greater in IoT than in
+traditional PC computing. Machine-to-Machine communications and intelligence drawn from the devices
+and the network will allow businesses to automate certain basic tasks without depending on central or
+cloud based applications and services.These attributes present opportunities to collect a wide range of
+data but also provide challenges in terms of designing the appropriate data networking and security.
+“An Introduction to the Internet of Things (IoT)” Copyright Lopez Research LLC
+3
+What It Means For Your Business?
+IoT impacts every business. Mobile and the Internet of Things will change the types of devices that
+connect into a company’s systems. These newly connected devices will produce new types of data. The
+Internet of Things will help a business gain efficiencies, harness intelligence from a wide range of
+equipment, improve operations and increase customer satisfaction. IoT will also have a profound impact
+on people’s lives. It will improve public safety, transportation and healthcare with better information and
+faster communications of this information. While there are many ways that the Internet of Things could
+impact society and business, there are at least three major benefits of IOT that will impact every business,
+which include: communication, control and cost savings.
+The Three Cs of IoT
+Communication. IoT communicates information to people and systems, such as state and health of
+equipment (e.g.it’s on or off, charged, full or empty) and data from sensors that can monitor a person’s
+vital signs. In most cases, we didn’t have access to this information before or it was collected manually
+and infrequently. For example, an IOT-enabled HVAC system can report if its air filter is clean and
+functioning properly. Almost every company has a class of assets it could track. GPS-enabled assets can
+communicate their current location and movement. Location is important for items that move, such as
+trucks, but it’s also applicable for locating items and people within an organization. In the healthcare
+industry, IoT can help a hospital track the location of everything from wheelchairs to cardiac defibrillators
+to surgeons. In the transportation industry, a business can deliver real-time tracking and condition of
+parcels and pallets. For example, Maersk can use sensors to track the location of a refrigerated shipping
+container and its current temperature.
+Control and Automation. In a connected world, a business will have visibility into a device’s condition.
+In many cases, a business or consumer will also be able to remotely control a device. For example, a
+business can remotely turn on or shut down a specific piece of equipment or adjust the temperature in a
+climate-controlled environment. Meanwhile, a consumer can use IoT to unlock their car or start the
+washing machine. Once a performance baseline has been established, a process can send alerts for
+anomalies and possibly deliver an automated response. For example, if the brake pads on a truck are
+about to fail, it can prompt the company to take the vehicle out of service and automatically schedule
+maintenance.
+“An Introduction to the Internet of Things (IoT)” Copyright Lopez Research LLC
+4
+Cost Savings. Many companies will adopt IoT to save money. Measurement provides actual
+performance data and equipment health, instead of just estimates. Businesses, particularly industrial
+companies, lose money when equipment fails. With new sensor information, IoT can help a company
+save money by minimizing equipment failure and allowing the business to perform planned maintenance.
+Sensors can also measuring items, such as driving behavior and speed, to reduce fuel expense and wear
+and tear on consumables. New smart meters in homes and businesses can also provide data that helps
+people understand energy consumption and opportunities for cost savings.
+How To Get Started
+These are just a few examples of how IoT can help a business save money, automate processes and gain
+new insight into the business. To reap the benefits IoT can provide, a business should address at least
+the following four items:
+1. Define what you’d like to learn from sensors. Over the next three years, a majority of the devices
+purchased will have sensors and many existing items can be retrofitted with sensors. This will produce
+a wide range of new data sources for people and systems to use to improve their lives and existing
+business processes. Within a business setting, IT must define what types of information can be
+obtained from these sensors and work with business leaders to define which business processes can
+be improved with this new IoT information. For example, sensor data that highlights anomalies in
+equipment vibration can be used to predict and avoid equipment failure.
+2. Build an IOT network and security foundation. Many industrial IoT deployments have used
+proprietary networks. Instead of building proprietary networks, IT should connect IoT devices with
+standards-based IP networks. An IP-based network will help businesses deliver the performance,
+reliability and interoperability that are required to support global IoT networks and connections with
+partner ecosystems. Additionally, many businesses are focused on building security strategies for
+smartphones and tablets, but this is just one aspect of the new mobile world. The proliferation of
+connected sensors and equipment provides new security concerns. As IT embraces IoT, it needs to
+ensure it has built safeguards into the solution including security procedures such as hardware
+encryption, physical building security and network security for data in transit. Identity and
+authentication structures will also need to be updated to support “things” as well as people.
+3. Collect as much data as possible. Businesses that don’t plan carefully for IoT will be overwhelmed
+with the volume and variety of data that IoT will generate. While each sensor may only produce a small
+amount of data, a company will be collecting data from thousands to millions of sensors. Firms must
+“An Introduction to the Internet of Things (IoT)” Copyright Lopez Research LLC
+5
+build a data collection and analytics strategy that supports this new torrent of information in a scalable
+and cost effective manner. Big data technology, such as Hadoop and NoSQL, can give companies the
+ability to rapidly collect, store and analyze large volumes of disparate IoT data. A company should
+collect any data that is relevant to existing processes. If possible and cost-effective, a company should
+also collect additional data that will enable the business to answer new questions in the future.
+4. Review the size and scale of IoT providers. IoT is a complicated landscape with numerous
+categories and many vendors within each category. The four main categories of an IoT solution are: a
+sensor(s) and radio(s) that often sits in the machine, a M2M device-management platform, a solution
+delivery platform and apps that enable IoT devices to report or act on data. While there are many
+vendors, no single vendor offers a complete solution without building partnerships. As a firm begins its
+IoT voyage, IT and line of business executives should build a cross-functional team to evaluate
+strategic partners. The team should evaluate the financial position of the vendors, industry knowledge,
+partnerships and breadth of offerings.
+ALL RIGHTS RESERVED. LOPEZ RESEARCH LLC
+The development, preparation, and publication of this work have been undertaken with great care. While
+we don’t anticipate any errors in this document, errors may occur. We’ll make every attempt to correct
+any errors that are found. The publisher is not responsible for consequences that may ensue from use of
+materials or information contained in this work. No part of this document may be reproduced in any
+manner without the express written consent of Lopez Research, except in the case of brief excerpts in
+critical reviews and articles. This document is available for reprints. To purchase syndicated research or
+reprints of the report please email or call us at: sales@lopezresearch.com or (866) 849-5750
+About Lopez Research
+Lopez Research, founded in 2008, is a market research and strategy consulting firm that specializes in
+how mobile technologies, big data, and cloud computing will create contextual “Right-time Experiences.”
+The company’s mission is to understand the evolution of these trends, provide thought leadership, and
+assist both enterprise and technology vendor clients in building winning market strategies. The
+company's market insights are gained through client interaction, survey-based research and predictive
+analysis. With a background in emerging business and technology trends, voice and data networking
+technologies, and vendor and service provider selection, Lopez Research provides clients and readers
+with the bridge between business leadership and technology adoption. www.lopezresearch.com
+“An Introduction to the Internet of Things (IoT)” Copyright Lopez Research LLC
+6
